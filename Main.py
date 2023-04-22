@@ -11,9 +11,9 @@ class Paint(Frame):
         Frame.__init__(self, parent)
 
         self.parent = parent
-        self.color = 'black'
+        self.color = 'white'
         self.mode = 'Brush'
-        self.brush_size = 2
+        self.brush_size = 3
         self.setUI()
 
         self.x = self.y = 0
